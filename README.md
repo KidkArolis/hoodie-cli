@@ -19,7 +19,7 @@ npm install -g hoodie-cli
 
 ## Usage
 
-```
+```bash
 Usage: hoodie <command> <parameters>
 
 Description:
@@ -45,7 +45,7 @@ for more in-depth usage info you can run: `hoodie <command> -h`
 
 ##### hoodie start
 
-```
+```bash
 hoodie new my-hoodie-app
 ```
 Creates a new hoodie app inside a new folder called `my-hoodie-app`. If you don't specify a name `my-first-hoodie` is set as app name.
@@ -80,14 +80,13 @@ Admin: http://127.0.0.1:6044
 Starting Plugin: 'hoodie-plugin-email'
 Starting Plugin: 'hoodie-plugin-users'
 All plugins started.
-
 ```
 
 ##### hoodie install / uninstall
 
 As you can see above, we install a number of plugins by default. Namely 'hoodie-plugin-email` and `hoodie-plugin-users`:
 
-```
+```bash
 …
 Starting Plugin: 'hoodie-plugin-email'
 Starting Plugin: 'hoodie-plugin-users'
@@ -95,12 +94,12 @@ Starting Plugin: 'hoodie-plugin-users'
 ```
 If you would like to install you're own plugins, you can run:
 
-```
+```bash
 hoodie install hoodie-plugin-fancy
 ```
 
 and to uninstall:
 
-```
+```bash
 hoodie uninstall hoodie-plugin-fancy
 ```
